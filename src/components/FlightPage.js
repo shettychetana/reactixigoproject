@@ -320,30 +320,7 @@ const handleButton3Click = async () => {
         <div className='flightoneway'>One Way</div>
         
     
-    <div className="style_scrollingWordBox__F_1N8">
-    <ul className="style_scrollingWordBoxUlInput__efDeh">
-        <li className="style_scrollingWordBoxUlListInput__1zls5 !justify-end">
-            <p className="body-sm flex gap-5">
-                <img width="1em" height="1em" fontSize="1.5rem" fill="currentColor" viewBox="0 0 24 24" src={Phone} data-testid="CallFilledIcon" className="h-20 w-20 text-green-500" style={{ display: "inline-block"}}/>
-                24x7 Customer Support
-            </p>
-        </li>
-        <li className="style_scrollingWordBoxUlListInput__1zls5 !justify-end">
-            <p className="body-sm flex gap-5">
-                <img width="1em" height="1em" font-size="1.5rem" fill="currentColor" viewBox="0 0 24 24" src="https://edge.ixigo.com/st/vimaan-desk/_next/static/media/thumbsUpFilled.3988027e.svg" data-testid="CallFilledIcon" className="h-20 w-20 text-green-500" style={{display:"inline-block"}}/>
-                Hassle-Free Bookings
-            </p>
-        </li>
-        <li className="style_scrollingWordBoxUlListInput__1zls5 !justify-end">
-            <p className="body-sm flex gap-5">
-                <img width="1em" height="1em" font-size="1.5rem" fill="currentColor" viewBox="0 0 24 24" src={offerflight} data-testid="CallFilledIcon" className="h-20 w-20 text-green-500" style={{display:"inline-block"}}/>
-                Best Flight Offers
-            </p>
-        </li>
-
-       
-    </ul>
-</div>
+   
 
 
 </div>
