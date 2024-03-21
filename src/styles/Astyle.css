@@ -1,6 +1,6 @@
 .btnsignup{
-  width: 350px;
-  height: 50px;
+  width: 250px;
+  height: 40px;
   margin-left: 50px;
   font-size: 25px;
   font-weight: bold;
@@ -10,33 +10,33 @@
   color: white;
 }
 .namelabel{
-  font-size:25px ;
+  font-size:20px ;
   margin-bottom: 11px;
  
 }
 .namelabell{
-  font-size:25px ;
-  width: 300px;
+  font-size:20px ;
+  width: 200px;
   margin-bottom: 11px;
 }
 .namelabel1l{
-  font-size:25px ;
-  width: 300px;
+  font-size:20px ;
+  width: 200px;
   margin-bottom: 11px;
   margin-left:30px ;
 }
 .imageoflogin{
   width: 300px;
-  height: 550px;
+  height: 600px;
 }
 .signuplog{
   display: flex;
-  font-size: 15px;
-  margin-left: 60px;
+  font-size: 19px;
+  margin-left: 150px;
 }
 .containerform{
   display: flex;
-  margin-left: 55px;
+  margin-left: 755px;
   width: 750px;
   height: 600px;
   border: 2px solid black;
@@ -88,6 +88,8 @@ button[type="submit"]{
 .privacy{
   padding-top: 52px;
   color: rgb(135, 124, 124);
+  line-height: .0.5cm;
+  font-size: 12px;
 }
 .policy{
   color: #EC5B24;
