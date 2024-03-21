@@ -31,8 +31,8 @@
 }
 .signuplog{
   display: flex;
-  font-size: 19px;
-  margin-left: 150px;
+  font-size: 15px;
+  margin-left: 60px;
 }
 .containerform{
   display: flex;
@@ -88,7 +88,6 @@ button[type="submit"]{
 .privacy{
   padding-top: 52px;
   color: rgb(135, 124, 124);
-  line-height: .0.5cm;
 }
 .policy{
   color: #EC5B24;
