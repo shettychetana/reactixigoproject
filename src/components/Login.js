@@ -56,7 +56,7 @@ function Login({ setUser }) {
     
     <label className='namelabel'>Email : </label>
     <input className='namelabel1l' type='email'  value={email} onChange={handleUserEmail} /><br/>
-    <label className='namelabel'>password:</label>
+    <label className='namelabel'>Password:</label>
     <input className='namelabell'  type='password'  value={password} onChange={handleUserPassword}/><br/>
     <button type='submit' className='btnsignup'>Login</button>
     <div className='privacy'>
