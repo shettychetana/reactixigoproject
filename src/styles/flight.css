@@ -220,10 +220,10 @@
 }
  /*--------------*/
  .flightmain{
-  width: 1825px;
+  
   height: 240px;
   background-color: white;
-  margin-left: 75px;
+ 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 15px;
   padding: 20px;
@@ -266,7 +266,7 @@ font-weight:400 ;
 font-family: 'Times New Roman', Times, serif;
  }
  .labelip{
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 20px;
   margin-top: 10px;
  }
@@ -274,7 +274,7 @@ font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   border: none;
   outline: none;
-  width: 210px;
+  width: 100px;
   
  
  }
