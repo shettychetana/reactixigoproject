@@ -20,7 +20,7 @@ function App() {
   const [username, setUsername] = useState('');
   const [isUserCreated,setIsUserCreated] = useState(true);
   return (
-    <div className="App">
+    <div className="App"  style={{ width: "100%" }}>
 
       <BrowserRouter>
       <Navbar username={username}/>
