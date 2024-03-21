@@ -1,0 +1,262 @@
+.busimage{
+    height: 500px;
+    width: 100%;
+
+}
+.fixedimg{
+    display: flex;
+}
+.fixedimg1{
+   width: 500px;
+   height: 250px;
+   margin-right: 30px;
+   border-radius: 10px;
+   overflow: hidden;
+
+}
+.staticimg{
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin-right: 10px;
+    padding: 5px;
+}
+/*filtering--------------------------------------------------*/
+
+.filterbus{
+    width: 300px;
+    height: auto;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 9px gray;
+}
+.filterbus1{
+    
+    padding: 10px;
+    border-radius: 10px;
+    
+    background-color: rgb(254, 252, 252);
+}
+.filterbus1div1{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: grey;
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+
+}
+.filterbus1div2{
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+
+}
+.filterbus1div2para{
+    
+    font-size: 25px;
+    color: grey;
+}
+.filterbus1div2parabtn{
+    
+    font-size: 25px;
+    color: grey;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+
+}
+.filterbus1div2parabtn:hover{
+    cursor: pointer;
+    background-color: #EC5B24;
+    color: WHITE;
+
+}
+.filterbus1div3{
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: grey;
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+    
+}
+.ac{
+    box-shadow: 0px 10px 9px gray;
+    width: 100px;
+    height: 90px;
+    margin-right: 20PX;
+    border-radius: 5px;
+}
+.nonac{
+    box-shadow: 0px 10px 9px gray;
+    width: 100px;
+    height: 90px;
+    margin-right: 20PX;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.ac:hover,.nonac:hover{
+    background-color: #EC5B24;
+    color: white;
+    cursor: pointer;
+}
+#buscontainer{
+
+padding: 10px;
+position: relative;
+top: -380px;
+width: 1600px;
+margin-left:380px ;
+margin-bottom:10pxpx ;
+box-shadow: 0px 10px 9px gray, 0px 10px 9px gray;
+border-radius: 15px;
+}
+.bus{
+    border:2px solid black;
+    
+}
+.busdiv1-c1_c1{
+    border-radius: 10px;
+ width: 300px;
+ height: 230px;
+ 
+ padding: 10px;
+ box-shadow: 0px 10px 9px gray;
+}
+.pbus{
+    color: gray;
+    font-size:20px ;
+    position: relative;
+    top:-30px;
+}
+.busdiv1{
+   
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 9px gray;
+}
+
+.busstar{
+   
+    position: relative;
+    top:-30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(52, 214, 52);
+    color: white;
+    font-size:20px ;
+    font-weight:500 ;
+    height: 50px;
+    align-items: center;
+}
+.busstar1{
+    font-size:25px ;
+}
+
+.busamenties{
+    color: gray;
+    border-radius: 10px;
+    position: relative;
+    top:-30px;
+   
+}
+.busamenties:hover{
+    color: #EC5B24;
+}
+/*info of bus*/
+
+.busdiv1-c1_c2{
+    width: 400px;
+    margin-left:30px ;
+    
+
+}
+.bus2Aa{
+    font-size:22px;
+    color: #EC5B24;
+
+}
+.bus2Ab{
+    font-size: 30px;
+    position: relative;
+    top:-30px;
+    
+}
+.bus2Ac{
+    font-size: 20px;
+    color: grey;
+    position: relative;
+    top:-50px;
+
+}
+.busdiv1-c1_c{
+    font-size: 20px;
+    color: grey;
+    
+   
+}
+.bus2Ba{
+    align-items: center;
+    position: relative;
+    top:40px;
+    margin-left:10px ;
+}
+
+
+/*sears*/
+.itbusdiv1-c1_c4{
+   
+    width: 240px;
+    padding:10px ;
+    border-left: solid #E6E8ED;
+    
+}
+
+.startbus{
+    font-size:20px ;
+    color: gray;
+    position: relative;
+    top:40px;
+}
+.busfare{
+    font-size:30px ;
+    font-weight:600 ;
+    color: rgb(0, 0, 0);
+}
+.save{
+    color: rgb(41, 246, 5);
+    font-weight:600 ;
+    font-size:20px ;
+    position: relative;
+    top:-30px;
+}
+.busseats{
+    position: relative;
+    top:-30px;
+    width: 200px;
+    height: 40px;
+    background-color:#EC5B24;
+    color: white;
+    font-weight:600 ;
+    font-size:20px ;
+    cursor: pointer;
+}
+.avaseats{
+    position: relative;
+    top:-35px;
+    font-size:20px ;
+    color: grey;
+}
+.busfinally{
+    width: 500px !important;
+}

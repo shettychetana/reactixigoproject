@@ -1,0 +1,110 @@
+.imageno{
+    width: 100%;
+    border: 2px solid #a19c9c;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.offer-container{
+    background-color: #f5efef;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.offerh2{
+    margin-left: 725px;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .flight-offer {
+    width: 500px;
+    height: 600px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    
+    
+    box-sizing: border-box;
+  }
+  .flight-offer:hover{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .btnofalloffer{
+    width: 475px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color:#EC5B24;
+    color: white;
+    cursor: pointer;
+  }
+  .imageof-offer{
+    width: 500px;
+    height: 330px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .flight-offer {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .flight-offer {
+      width: 100%;
+    }
+  }
+     
+  .offer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .offer-table th, .offer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 25px;
+  }
+  
+  .offer-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    
+  }
+  .h3offer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px ;
+  
+  }
+  .poffer{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #595B66;
+  }
+  .footer{
+    background-color: #1F2026;
+    color: #737580;
+    width: 100%;
+    height: 250px;
+  }
+  .rowfooter{
+    display: flex;
+    justify-content:center;
+
+  }
+  .js-ajax-link{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color:#737580;
+  }
+  .pfooteroffer{
+    font-size: 20px;
+  margin-left: 600px;
+  margin-top: 75px;
+  }

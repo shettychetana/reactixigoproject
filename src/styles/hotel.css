@@ -1,0 +1,249 @@
+.hotelip{
+    margin-left: 34px;
+    width: 1959px;
+    height: 150px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 9px 10px grey,10px 0px 10px grey;
+}
+.hotelsearch{
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  
+    background-color: #f4f1f1;
+    border-left: 3px solid white;
+}
+.hotelsearchh{
+    margin-top: 20px;
+    margin-left: 27px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  
+    background-color: #f4f1f1;
+    border-left: 3px solid white;
+}
+.maindiv{
+    margin-left: 20px;
+    
+}
+.btnsearching{
+    width: 299px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #EC5B24;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    
+}
+.photel{
+    font-size:18px ;
+    outline: none;
+    margin-left: 100px;
+}
+.iphotel{
+    border: none;
+    outline: none;
+    background-color: #f5eeee;
+    width: 150px;
+    height: 40px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.iphotel:hover{
+    border-bottom: 7px solid rgb(5, 209, 240);
+}
+/*-----------------------------------------------*/
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 31px;
+    box-shadow: 0px 10px 9px grey,0px 9px 10px gray;
+}
+.main1{
+background-color: rgb(251, 251, 251);
+margin: 5px;
+width: 450px;
+display: flex;
+flex-direction: column;
+
+}
+.main2{
+background-color: rgb(245, 242, 242);
+width: 1492px;
+margin: 5px;
+
+}
+.hotelpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+.result-item{
+    display: flex;
+    flex-direction: row;
+    width: 1450px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(229, 220, 220);
+    height: 400px;
+    box-shadow: 0px 9px 10px grey;
+    border-radius: 10px;
+    
+}
+
+.hotelimg{
+    width: 400px;
+    height: 380px;
+    background-color: rgb(225, 235, 235);
+    
+    margin: 10px;
+
+}
+.hotelpic{
+    width: 400px;
+    height: 380px;
+    border-radius: 10px;
+}
+.hotelname{
+    width: 780px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: rgb(240, 245, 245);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.parahotel{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(126, 121, 121);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -45px;
+    
+}
+.headhotel{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -20px;
+}
+.hotelbook{
+    width: 230px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    
+}
+.llm{
+    margin-top:120px ;
+    margin-left: 20px;
+}
+.pbooking{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
+   
+    
+}
+.ppbooking{
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+}
+.pppbooking{
+    font-size: 15px;
+    font-weight: 200;
+   
+    margin-top: 1px;
+    margin-bottom: 1px;
+  
+
+}
+.hotbooking{
+    font-size: 20px;
+    width:210px;
+    height: 50px;
+    background-color: #EC5B24;
+    color: white;
+    margin-top:10px ;
+    cursor: pointer;
+}
+#rating{
+    color: rgb(7, 112, 228);
+    font-size:25px ;
+    top: -25px;
+    font-weight: 600;
+    position: relative;
+
+}
+.amen{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: green;
+}
+.amenn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: green;
+}
+/*-------------------------------------------------------------------------------*/
+.mainhotel{
+  border: 2px solid rgb(230, 227, 227);
+  width: 1600px;
+  position: relative;
+  top: -380px;
+  left: 350px;
+  box-shadow: 0px 9px 10px grey;
+  border-radius: 10px;
+  display: flex;
+margin-bottom: 20px;
+padding: 10px;
+
+}
+.mainhotel1img{
+    border-radius: 10px;
+}
+.mainhotel2{
+    margin-left: 30px;
+}
+.mainhotel3{
+   position: relative;
+   left: 450px;
+   top: -10px;
+}
+.closeshotel{
+    position: relative;
+    left: 1450px;
+    width: 100px;
+    height: 50px;
+    font-size:20px;
+}
+.closeshotel:hover{
+   background-color:#EC5B24;
+   color: white;
+   font-weight: 900;
+}
+
+.headhotellll{
+    font-size: 30px;
+    position: relative;
+    top: -65px;
+    left: 20px;
+}

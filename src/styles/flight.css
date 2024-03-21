@@ -1,0 +1,588 @@
+ /*booking*/
+ 
+ 
+ .devre{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 8px grey;
+  border-radius: 2px solid grey;
+  width: 1724px;
+  margin-left:121px ;
+
+ }
+ 
+ .devreheading{
+  margin-left:5px ;
+ }
+ .devrebtn{
+  margin-left:1420px ;
+  margin-top:20px ;
+  height: 25px; 
+  background-color: red;
+  color:white;
+  font-size:20px ;
+ 
+ }
+ .bookfinal{
+  display: flex;
+
+ }
+ 
+ /*--------------------------------finally------------*/
+ 
+ .conformbooking1{
+  display: flex;
+  width: 1725px;
+  margin-left: 120px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 8px grey;
+ }
+ 
+ .bookfinal{
+  background-color: rgb(255, 255, 255);
+  width: 1724px;
+  padding:5px ;
+  
+ }
+ 
+ .bookfinal1a{
+  background-color: #f4f2f2;
+  padding-left:10px ;
+  font-size: 22px;
+  line-height: 30px;
+  
+  width: 535px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 8px grey;
+  border-radius:15px ;
+ }
+ .bookfinal1b{
+  background-color: #f4f2f2;
+  padding:1px ;
+  
+  line-height: 30px;
+  
+  width: 545px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 8px grey;
+  border-radius:15px ;
+ }
+ .bookfinal1bA{
+  display: flex;
+  background-color: rgb(213, 225, 213);
+  border-radius:15px ;
+  color: green;
+ }
+ .finalimage{
+  width: 50px;
+  height: 60px;
+ }
+ .bookfinal1bB{
+  background-color: rgb(255, 255, 255);
+  
+  text-align: center;
+  border-radius:15px ;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .headingoffare1{
+  font-size: 24px;
+  font-weight: bolder;
+  
+  margin-top: 1px;
+  /* padding-top: 15px; */
+ }
+ .headingoffare1a{
+  font-size: 18px;
+  color: grey;
+  margin-top: 1px;
+  
+ 
+ }
+ .headingoffare2{
+  font-size: 20px;
+  
+  
+  margin-top: 1px;
+  /* padding-top: 15px; */
+ }
+ .headingoffare2a{
+  font-size: 20px;
+  font-weight: bolder;
+  color: green;
+  margin-top: 7px;
+  
+  
+ }
+ .headingoffare3{
+  font-size: 20px;
+  
+  
+  margin-top: 1px;
+  /* padding-top: 15px; */
+ }
+ .headingoffare3a{
+  font-size: 20px;
+  
+ 
+  margin-top: 1px;
+  
+ 
+ }
+ .headingoffare5{
+  font-size: 28px;
+  font-weight:bolder ;
+ 
+  margin-top: 1px;
+  /* padding-top: 15px; */
+ }
+ .headingoffare5a{
+  font-size: 28px;
+  
+  font-weight:bolder ;
+  margin-top: 1px;
+  
+ 
+ }
+ .headingoffare{
+  
+  background-color: #EC5B24;
+ }
+ 
+ .chet{
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+ height: 45px;
+ border-radius: 15px;
+ }
+ 
+ /*-----------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ 
+ 
+ .running{
+  display: flex;
+ }
+ .style_scrollingWordBox__F_1N8 {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 10%; /* Adjust as needed */
+  margin-left: 1480px;
+  font-weight: bold;
+}
+
+.style_scrollingWordBoxUlInput__efDeh {
+  display: inline-block;
+  animation: scroll 10s linear infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+.style_scrollingWordBoxUlListInput__1zls5 {
+  display: inline-block;
+  margin-right: 100px; /* Adjust spacing between items */
+}
+
+.body-sm {
+  font-size: 20px; /* Adjust font size as needed */
+  color: #333; /* Adjust text color as needed */
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.gap-5 {
+  margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+.h-20,
+.w-20 {
+  /* Adjust icon size as needed */
+  width: 20px;
+  height: 20px;
+}
+ /*--------------*/
+ .flightmain{
+  width: 1825px;
+  height: 240px;
+  background-color: white;
+  margin-left: 75px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  padding: 20px;
+ }
+ 
+ .flightoneway{
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+
+  width:120px ;
+  height:35px ;
+  border: 2px solid #9c9595;
+  border-radius: 20px;
+  box-shadow: 0px 9px 10px rgb(190, 172, 172);
+  font-weight: 450;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .main-search-panel{
+  background-color: #eeeeee;
+  /* padding: 15px; */
+  height: 100px;font-size: 20px;
+  
+  border-radius: 10px;
+ 
+ }
+
+ .labelipp{
+  height: 99px;
+  background-color:  #EC5B24;
+  color: whitesmoke;
+  width: 256px;
+  margin-left: 36px;
+  border-radius: 2px solid rgb(237, 230, 230);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+font-size: 35px;
+font-weight:400 ;
+font-family: 'Times New Roman', Times, serif;
+ }
+ .labelip{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+ }
+ .ipfrom{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  width: 210px;
+  
+ 
+ }
+ 
+ /*------------------------*/
+.flight-offers-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 20px; 
+    
+  }
+  
+  .flight-of {
+    box-shadow: 0px 8px 9px grey;
+    border-radius: 10px;
+    width: 250px;
+    height: 400px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+    transition: transform 0.3s ease;
+    animation: movement 10s linear infinite; 
+  }
+  @keyframes movement {
+      0% {transform: translateX(-100px)}
+     50% {transform: translateX(50px)}
+     100% {transform: translateX(350px)}
+  }
+  
+  .poff{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+  }
+ 
+  
+  .airport-options-list {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .airport-option {
+    cursor: pointer; 
+    padding: 8px 16px; 
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black; 
+    position: relative;
+    top: -48px;
+    left: 32px;
+    width: 182px;
+  }
+  
+  .airport-option1{
+    cursor: pointer; 
+    padding: 8px 16px; 
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black; 
+    position: relative;
+    top: -48px;
+    left: 80px;
+    width: 182px;
+  }
+  
+  .airport-option:hover {
+    background-color: #f0f0f0; 
+  }
+  .airport-option1:hover {
+    background-color: #f0f0f0; 
+  }
+  .srcdes {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 4fr; 
+    
+    gap: 15px; 
+    
+    
+}
+
+.srcli{
+  border: 1px   solid grey;
+  background-color: white;
+  color: #333;
+  list-style-type: none;
+  padding: 0px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+ 
+  .flight {
+    display: flex;
+    border: 1px solid #ccc;
+    box-shadow: 7px  7px 7px rgba(0,0,0,.3);
+    width: 1000px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px black;
+    margin-left: 550px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    
+    
+  }
+  
+  
+  .column {
+    gap: 10px;
+    flex: 1;
+    padding: 10px;
+    
+    text-align: center;
+
+  }
+  .pinflight{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .poutflight{
+    color: #EC5B24;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .priceflight{
+    font-weight: bold;
+    font-size: 29px;
+  }
+  .pintime{
+    font-size: 23px;
+  }
+  .phour{
+    font-size: 20px;
+    color: grey;
+  }
+  .dur{
+    font-size: 19px;
+    color: gray;
+  }
+
+
+
+ 
+  
+  .popup-container {
+    position: fixed;
+    margin-bottom: 900px;
+    
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+   
+  }
+  
+  .popup {
+    background-color: #EC5B24;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 1000px;
+    height: 350px;
+    padding: 20px;
+    border: 5px solid grey;
+    border-radius: 15px;
+    
+  
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+  }
+  .popup-close:hover{
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+  }
+  .popup-content {
+
+   
+    font-weight: bold;
+   
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  .buttons-container{
+    margin-left: 90px;
+    display: flex;
+    gap: 15px;
+    margin-left: 605px;
+    margin-bottom: 20px;
+
+  }
+  .buttons-container button{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 48px;
+    background-color:#EC5B24;
+    color: white;
+    border-radius:15px ;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+  .sort{
+    
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  .booknow{
+    width: 75px;
+    height: 45px;
+    background-color: #EC5B24;
+    color: white;
+
+    font-size: 25px;
+    border-radius: 10px;
+  } 
+
+
+  /*static order*/
+ .staticorder{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: #fcfcfc;
+  width: 1950px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(1, 1, 1, 0.19);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left:10px ;
+  padding-right: 10px;
+ }
+  
+ .staticorder1{
+  width: 270px;
+  border-right: 3px solid #ebe9e9;
+  display: flex;
+  flex-direction: column;
+  
+ }
+  
+ .staticorder2{
+  width: 270px;
+ 
+ 
+  
+ }
+  .air{
+      width: 150px;
+      height: 195px;
+      margin-left: 60px;
+  }
+  .air2{
+      width: 200px;
+      height: 195px;
+      margin-left: 20px;
+  }
+  .air1{
+    margin-top: 20px;
+      width: 160px;
+      height: 125px;
+      margin-left: 60px;
+  }
+  .airp{
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .airpp{
+    margin-left: 90px;
+    margin-top: 6px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .airplane{
+    margin-left: 90px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .airpt{
+    margin-left: 80px;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .domore{
+    margin-left: 40px;
+  }
