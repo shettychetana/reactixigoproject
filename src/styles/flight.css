@@ -325,9 +325,9 @@ font-family: 'Times New Roman', Times, serif;
     background-color: white;
     color: black; 
     position: relative;
-    top: -48px;
-    left: 32px;
-    width: 182px;
+    top: -35px;
+    left: 5px;
+    width: 121px;
   }
   
   .airport-option1{
@@ -337,9 +337,9 @@ font-family: 'Times New Roman', Times, serif;
     background-color: white;
     color: black; 
     position: relative;
-    top: -48px;
+    top: -35px;
     left: 80px;
-    width: 182px;
+    width: 121px;
   }
   
   .airport-option:hover {
