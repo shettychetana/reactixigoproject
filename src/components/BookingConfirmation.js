@@ -60,7 +60,7 @@ const BookingConfirmation = ({ flight,flightId, onClose ,searchParams,arrivalTim
     </div>
 
     <div>
-    <div className='hotelip' style={{width:"1725px", marginLeft:"120px"}}>
+    <div className='hotelip' style={{width:"100%"}}>
         <div className='hotelsearchh' >
           <p className='photel'>Name</p>
           <input
