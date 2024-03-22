@@ -6,8 +6,8 @@
   flex-direction: row;
   box-shadow: 0px 0px 8px grey;
   border-radius: 2px solid grey;
-  width: 1724px;
-  margin-left:121px ;
+  width: 100%;
+  
 
  }
  
@@ -15,7 +15,7 @@
   margin-left:5px ;
  }
  .devrebtn{
-  margin-left:1420px ;
+  margin-left:750px ;
   margin-top:20px ;
   height: 25px; 
   background-color: red;
@@ -376,7 +376,7 @@ font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
     box-shadow: 7px black;
-    margin-left: 550px;
+    margin-left: 50px;
     margin-bottom: 15px;
     border-radius: 15px;
     
@@ -424,15 +424,15 @@ font-family: 'Times New Roman', Times, serif;
   
   .popup-container {
     position: fixed;
-    margin-bottom: 900px;
-    
-    width: 1200px;
-    height: 500px;
+    margin-bottom: 500px;
+    width: 400px;
+    height: 460px;
     display: flex;
     justify-content: center; 
     align-items: center; 
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 15px;
+    left: 1060px;
    
   }
   
@@ -474,11 +474,12 @@ font-family: 'Times New Roman', Times, serif;
   }
  
   .buttons-container{
-    margin-left: 90px;
+    
     display: flex;
     gap: 15px;
-    margin-left: 605px;
+    
     margin-bottom: 20px;
+    margin-top: 20px;
 
   }
   .buttons-container button{
