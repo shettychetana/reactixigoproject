@@ -5,7 +5,9 @@
 }
 .image-captionn{
 position: relative;
-    
+top:-450px;
+    left:500px;
+    font-size:30px
 }
 .fixedimg{
     display: flex;
