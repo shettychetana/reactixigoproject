@@ -34,13 +34,13 @@ top:-450px;
     
     background-color: white;
     margin-left: 5px;
-    postion:relative;
-    top:-75px;
+   
     border-radius: 10px;
     box-shadow: 0px 10px 9px gray;
 }
 .filterbus1{
-    
+     postion:relative;
+    top:-75px;
     padding: 10px;
     border-radius: 10px;
     
@@ -120,7 +120,7 @@ top:-450px;
 
 padding: 10px;
 position: relative;
-top: -510px;
+top: -431px;
 width: 72%;
 margin-left:250px ;
 border-radius: 15px;
