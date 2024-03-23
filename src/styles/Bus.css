@@ -142,7 +142,8 @@ border-radius: 15px;
     top:-20px;
 }
 .busdiv1{
-   
+       position: relative;
+    left: -40px;
     display: flex;
     margin-bottom: 10px;
     border-radius: 10px;
