@@ -1,6 +1,8 @@
 .trainimage{
     width: 100%;
     height: 500px;
+    
+    
 }
 .why-ixigo-container{
   width: 99%;
@@ -78,7 +80,7 @@
 }
 .why-ixigo-subheading{
   display: flex;
-  margin-left: 810px;
+  margin-left: 570px;
   font-size: 22px;
   gap: 10px;
   
@@ -95,26 +97,28 @@ margin-top: 20px;
 }
 .coloftrain{
   display: flex;
-  gap: 300px;
+  gap: 207px;
   padding-left:50px;
   padding-top: 20px;
-  margin-left: 200px;
-  width: 1650px;
+  margin-left: 50px;
+  width: 95%;
   font-size: 25px;
   background-color: antiquewhite;
   
 }
 .coloftrain1{
   display: flex;
-  gap: 150px;
-  margin-left: 200px;
+  gap: 207px;
+  margin-left: 50px;
  font-size: 25px;
-  width: 1650px;
+  width: 95%;
   padding-left:50px;
   background-color: antiquewhite;
 }
 /* this is showing or filerting part*/
-
+.why-ixigo-container{
+  width: 99%;
+}
 .filtrain{
   height: 100px ;
 padding: 10px;
