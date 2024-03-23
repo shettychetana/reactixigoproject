@@ -269,7 +269,7 @@ const TrainsPage = () => {
         <img className='trainimg' src={compareBookWhite} alt="Train" />
         <p className='image-caption'>Train Ticket Booking</p>
 
-        <div className='hotelip' style={{ position: "absolute", bottom: "450px", width: "1550px", marginLeft: "250px" }}>
+        <div className='hotelip' style={{ position: "absolute", bottom: "200px", width: "100%"}}>
           <div className='hotelsearchh'>
             <p className='photel'>FROM</p>
             <input
