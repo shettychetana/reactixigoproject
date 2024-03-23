@@ -99,7 +99,7 @@ const BusCard=({bus,searchParams})=>{
       <div className='busdiv1-c1' style={{display:"flex"}}>
       <div className=' busdiv1-c1_c1'>
       
-      <p  style={{fontSize:"28px",fontWeight:"600"}}>{name}</p>
+      <p  style={{fontSize:"20px",fontWeight:"600"}}>{name}</p>
       <p className='pbus'>{type}</p>
 
       <div className='busstar' style={{display:"flex"}}>
