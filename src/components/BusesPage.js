@@ -224,7 +224,7 @@ const handleac = async () => {
     <div>
     <img className='busimage' src="https://media.istockphoto.com/id/855138150/vector/bus-stop-and-bus-on-city-background.jpg?s=170667a&w=0&k=20&c=c_ORf2RxhBMOnYSnFA4DxiVmp5Ve0XpQsW9eBjW_4P8=" alt="Train" />
     
-    <p className='image-captionn' style={{color:"black"}}>Train Ticket Booking</p>
+    <p className='image-captionn' style={{color:"black"}}>Bus Ticket Booking</p>
     <div className='hotelip' style={{ position: "absolute", bottom: "150px", width: "100%" }}>
           <div className='hotelsearchh'>
             <p className='photel'>FROM</p>
