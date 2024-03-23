@@ -3,6 +3,9 @@
     width: 100%;
 
 }
+.image-captionn{
+    
+}
 .fixedimg{
     display: flex;
 }
@@ -114,8 +117,8 @@
 padding: 10px;
 position: relative;
 top: -380px;
-width: 1600px;
-margin-left:380px ;
+width: 72%;
+margin-left:370px ;
 margin-bottom:10pxpx ;
 box-shadow: 0px 10px 9px gray, 0px 10px 9px gray;
 border-radius: 15px;
