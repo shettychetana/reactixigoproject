@@ -30,11 +30,12 @@ top:-450px;
 /*filtering--------------------------------------------------*/
 
 .filterbus{
-    width: 200px;
-    height: auto;
+    width: 250px;
+    
     background-color: white;
     margin-left: 5px;
-    margin-top: 5px;
+    postion:relative;
+    top:-75px;
     border-radius: 10px;
     box-shadow: 0px 10px 9px gray;
 }
@@ -119,11 +120,9 @@ top:-450px;
 
 padding: 10px;
 position: relative;
-top: -380px;
+top: -510px;
 width: 72%;
-margin-left:370px ;
-margin-bottom:10pxpx ;
-
+margin-left:250px ;
 border-radius: 15px;
 }
 .bus{
