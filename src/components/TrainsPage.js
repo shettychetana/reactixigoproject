@@ -332,7 +332,7 @@ const TrainsPage = () => {
           </div>}
       </div>
       {!searchPerformed&&
-        <section className="section-card section-card-transparent" style={{backgroundColor:"whitesmoke"}}>
+        <section className="section-card section-card-transparent" style={{backgroundColor:"whitesmoke",position:"relative",top:"-116px"}}>
         <h2 className="why-ixigo-heading">
         IRCTC Train Ticket Booking on ixigo</h2>
         <div className="why-ixigo-subheading">
