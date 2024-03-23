@@ -337,7 +337,7 @@ padding: 10px;
 .ticket1Ab{
   height: 60px;
   width: 150px;
-  margin-left: 700px;
+  
   font-size:20px ;
   margin-top: 10px;
 }
@@ -395,8 +395,8 @@ box-shadow: 0px 10px 9px grey;
   margin-bottom:5px ;
 }
 .ticket2{
-  margin-left: 50px; 
-  width: 1300px;
+   
+  width: 95%;
   box-shadow: 0px 10px 9px grey;
   margin-bottom:25px ;
 
