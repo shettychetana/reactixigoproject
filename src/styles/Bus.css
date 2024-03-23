@@ -130,7 +130,7 @@ border-radius: 15px;
 .busdiv1-c1_c1{
     border-radius: 10px;
  width: 200px;
- height: 200px;
+ height: 231px;
  
  padding: 10px;
  box-shadow: 0px 10px 9px gray;
@@ -180,27 +180,29 @@ border-radius: 15px;
 /*info of bus*/
 
 .busdiv1-c1_c2{
-    width: 400px;
-    margin-left:30px ;
+    width: 190px;
+    margin-left:10px ;
     
 
 }
 .bus2Aa{
     font-size:22px;
     color: #EC5B24;
+    width: fit-content;
+    height: 65px;
 
 }
 .bus2Ab{
-    font-size: 30px;
+   font-size: 22px;
     position: relative;
-    top:-30px;
+    top: -30px;
     
 }
 .bus2Ac{
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
     position: relative;
-    top:-50px;
+    top:-30px;
 
 }
 .busdiv1-c1_c{
@@ -210,10 +212,10 @@ border-radius: 15px;
    
 }
 .bus2Ba{
-    align-items: center;
-    position: relative;
-    top:40px;
-    margin-left:10px ;
+    
+  position: relative;
+    top: 88px;
+    left: -40px;
 }
 
 
