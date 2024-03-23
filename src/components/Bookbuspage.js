@@ -109,7 +109,7 @@ const [pincode, setPincode] = useState('');
     <button className="tickbook" onClick={handleBooking} disabled={!pincodeValid || !addressValid || !stateValid}>BOOK</button>
         </div>
           </div>
-    <div className='ticket2' style={{width:"1400px"}}>
+    <div className='ticket2' style={{width:"85%px"}}>
     {bookingData&&(
       <div className='ticket2A' >
       <p className='ticket2Aaa'>{bookingData.status}</p>
