@@ -77,7 +77,7 @@ const [pincode, setPincode] = useState('');
   };
   return (
     <div>
-    <div style={{ height: "550px" ,width:"1500px",marginLeft:"250px"}} className='ticket1'>
+    <div style={{ height: "550px" ,width:"99%",marginLeft:"20px"}} className='ticket1'>
     <div style={{ display: "flex" }}  className='ticket1A'> 
     <div style={{ display: "flex" ,flexDirection:"column"}}>
     <p className='ticket1Aa'> Booking Details </p>
