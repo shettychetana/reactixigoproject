@@ -30,11 +30,9 @@ top:-450px;
 /*filtering--------------------------------------------------*/
 
 .filterbus{
-    width: 250px;
-    
+    width: 190px;
+        margin-left: 5px;
     background-color: white;
-    margin-left: 5px;
-   
     border-radius: 10px;
     box-shadow: 0px 10px 9px gray;
 }
@@ -90,7 +88,7 @@ top:-450px;
    
     padding: 10px;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 15px;
     color: grey;
     border-radius: 10px;
     background-color: rgb(249, 243, 243);
@@ -98,15 +96,15 @@ top:-450px;
 }
 .ac{
     box-shadow: 0px 10px 9px gray;
-    width: 100px;
-    height: 90px;
+    width: 60px;
+    height: 70px;
     margin-right: 20PX;
     border-radius: 5px;
 }
 .nonac{
     box-shadow: 0px 10px 9px gray;
-    width: 100px;
-    height: 90px;
+    width: 60px;
+    height: 70px;
     margin-right: 20PX;
     font-weight: 500;
     border-radius: 5px;
@@ -126,22 +124,22 @@ margin-left:250px ;
 border-radius: 15px;
 }
 .bus{
-    border:2px solid black;
+   
     
 }
 .busdiv1-c1_c1{
     border-radius: 10px;
- width: 300px;
- height: 230px;
+ width: 200px;
+ height: 200px;
  
  padding: 10px;
  box-shadow: 0px 10px 9px gray;
 }
 .pbus{
     color: gray;
-    font-size:20px ;
+    font-size:15px ;
     position: relative;
-    top:-30px;
+    top:-20px;
 }
 .busdiv1{
    
@@ -154,18 +152,18 @@ border-radius: 15px;
 .busstar{
    
     position: relative;
-    top:-30px;
-    width: 70px;
+    top:-23px;
+    width: 50px;
     border-radius: 10px;
     background-color: rgb(52, 214, 52);
     color: white;
     font-size:20px ;
     font-weight:500 ;
-    height: 50px;
+    height: 40px;
     align-items: center;
 }
 .busstar1{
-    font-size:25px ;
+    font-size:22px ;
 }
 
 .busamenties{
