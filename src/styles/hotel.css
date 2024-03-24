@@ -6,7 +6,10 @@
 }
 
 .jkkkkk{
-    height:"";
+    width: 200px;
+    background-color: pink;
+    position: relative;
+    top: 85px;
 }
 .hotelsearch{
     margin-top: 20px;
