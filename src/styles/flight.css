@@ -297,14 +297,9 @@ font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     border: 1px solid #ccc;
     
-    transition: transform 0.3s ease;
-    animation: movement 10s linear infinite; 
+    
   }
-  @keyframes movement {
-      0% {transform: translateX(-100px)}
-     50% {transform: translateX(50px)}
-     100% {transform: translateX(350px)}
-  }
+ 
   
   .poff{
     font-size: 18px;
