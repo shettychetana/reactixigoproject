@@ -112,8 +112,8 @@ function HotelCard({hotel,searchParams}) {
         <div className='hh '>
         {done&&(<div>
           {bookingDatahotel && (
-            <div style={{  backgroundColor:"green",color:"white",position:"relative",top:"-400px",left:"360px",border:"2px solid grey",width:"1600px",boxShadow:"0px 10px 8px grey",borderRadius:"15px",height:"50px"}}>
-              <p style={{position:"relative",left:"560px",fontSize:"35px",top:"-35px"}}>{bookingDatahotel.status}</p>
+            <div style={{  backgroundColor:"green",color:"white",position:"relative",top:"-400px",left:"220px",border:"2px solid grey",width:"80%",boxShadow:"0px 10px 8px grey",borderRadius:"15px",height:"50px"}}>
+              <p style={{position:"relative",left:"560px",fontSize:"25px",top:"-35px"}}>{bookingDatahotel.status}</p>
             </div>
   
           )}
@@ -237,7 +237,7 @@ function HotelCard({hotel,searchParams}) {
         onMouseLeave={handleMouseLeave}
       >
         {hotel && hotel.images && (
-          <img className="mainhotel1img" src={hotel.images[currentImageIndex]} alt={`Hotel Image ${currentImageIndex}`} style={{width:"380px",height:"280px"}}/>
+          <img className="mainhotel1img" src={hotel.images[currentImageIndex]} alt={`Hotel Image ${currentImageIndex}`} style={{width:"340px",height:"280px"}}/>
         )}
       </div>
         
