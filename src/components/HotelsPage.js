@@ -262,6 +262,7 @@ const HotelsPage = () => {
         </div>)}
       </div>
       {searchPerformed&&(
+              <div className="jkkkkk">
         <div className="filterbus">
         <div className='filterbus1'>
         <div className='filterbus1div1'>Filters</div>
@@ -279,6 +280,7 @@ const HotelsPage = () => {
        
         </div>
       </div>
+              </div>
        )}
         
 {hotelComponents}
