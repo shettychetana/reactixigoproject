@@ -18,7 +18,7 @@
 }
 .hotelsearchh{
     margin-top: 20px;
-    margin-left: 27px;
+    margin-left: 2px;
     width: 400px;
     height: 100px;
     display: flex;
@@ -32,7 +32,7 @@
     
 }
 .btnsearching{
-    width: 299px;
+    width: 280px;
     height: 100px;
     margin-top: 20px;
     background-color: #EC5B24;
@@ -44,7 +44,7 @@
 .photel{
     font-size:18px ;
     outline: none;
-    margin-left: 100px;
+    margin-left: 65px;
 }
 .iphotel{
     border: none;
@@ -52,7 +52,7 @@
     background-color: #f5eeee;
     width: 150px;
     height: 40px;
-    margin-left: 90px;
+    margin-left: 48px;
     font-size: 20px;
     font-weight: bold;
 }
