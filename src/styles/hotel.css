@@ -206,10 +206,10 @@ margin: 5px;
 /*-------------------------------------------------------------------------------*/
 .mainhotel{
   border: 2px solid rgb(230, 227, 227);
-  width: 1600px;
+  width: 82%;
   position: relative;
   top: -380px;
-  left: 350px;
+  left: 215px;
   box-shadow: 0px 9px 10px grey;
   border-radius: 10px;
   display: flex;
