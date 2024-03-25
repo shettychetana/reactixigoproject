@@ -7,9 +7,10 @@
 
 .jkkkkk{
     width: 200px;
-    background-color: pink;
+    
     position: relative;
-    top: 85px;
+    top: 25px;
+    margin-bottom: 50px;
 }
 .hotelsearch{
     margin-top: 20px;
@@ -235,9 +236,9 @@ padding: 10px;
 }
 .closeshotel{
     position: relative;
-    left: 1450px;
-    width: 100px;
-    height: 50px;
+       left: 1180px;
+    width: 72px;
+    height: 33px;
     font-size:20px;
 }
 .closeshotel:hover{
@@ -247,8 +248,8 @@ padding: 10px;
 }
 
 .headhotellll{
-    font-size: 30px;
+   font-size: 20px;
+    left: 9px;
     position: relative;
-    top: -65px;
-    left: 20px;
+    top: -55px;
 }
