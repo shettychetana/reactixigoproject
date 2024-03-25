@@ -120,7 +120,7 @@ function HotelCard({hotel,searchParams}) {
           </div>)}
        
         
-        <div  style={{position:"relative",top:"-400px",left:"360px",border:"2px solid #EC5B24",width:"80%",boxShadow:"0px 10px 8px grey",borderRadius:"15px"}}> {selectedRoom && (
+        <div  style={{position:"relative",top:"-400px",left:"220px",border:"2px solid #EC5B24",width:"80%",boxShadow:"0px 10px 8px grey",borderRadius:"15px"}}> {selectedRoom && (
           
 
           <div className='mmmmmm' style={{display:"flex"}}>
@@ -163,8 +163,8 @@ function HotelCard({hotel,searchParams}) {
             <div className="availability-details">
             <button onClick={handleCloseAvailability} className='closeshotel'>cancel</button>
               <p className='headhotellll'  style={{color:"#EC5B24"}}>{roomDetails.data.name} {roomDetails.data.location}</p>
-              <div style={{position:"relative",top:"-75px",left:"10px"}}><h2>ABOUT</h2>
-              <p  style={{position:"relative",top:"-15px",fontSize:"19px",color:"grey"}}>Welcome to Our Hotel: A Haven of Comfort and Luxury
+              <div style={{position:"relative",top:"-75px",left:"10px",width:"78%"}}><h3>ABOUT</h3>
+              <p  style={{position:"relative",top:"-15px",fontSize:"14px",color:"grey",padding:"10px"}}>Welcome to Our Hotel: A Haven of Comfort and Luxury
 
               At  {roomDetails.data.name}, we believe that a stay away from home should be more than just a temporary residence; it should be an experience to cherish and remember. Nestled in the
                heart of {roomDetails.data.location} , 
@@ -173,32 +173,32 @@ function HotelCard({hotel,searchParams}) {
               </div>
 
               <div style={{display:"flex",position:"relative",top:"-85px",left:"10px"}}>
-              <div style={{width:"510px",borderRight:"2px solid grey"}}>
-              <p style={{fontSize:"20px"}}>Availability of {roomDetails.data.amenities.join(", ")}</p>
+              <div style={{width:"350px",borderRight:"2px solid grey",    marginLeft: "76px"}}>
+              <p style={{fontSize:"15px"}}>Availability of {roomDetails.data.amenities.join(", ")}</p>
              
-              <p style={{fontSize:"20px"}}>ExtraBedCharge: ₹{roomDetails.data.childAndExtraBedPolicy.extraBedCharge}</p>
-              <p style={{fontSize:"20px"}}>AvgCostPerNight: ₹{roomDetails.data.avgCostPerNight.toFixed(2)}</p>
+              <p style={{fontSize:"15px"}}>ExtraBedCharge: ₹{roomDetails.data.childAndExtraBedPolicy.extraBedCharge}</p>
+              <p style={{fontSize:"15px"}}>AvgCostPerNight: ₹{roomDetails.data.avgCostPerNight.toFixed(2)}</p>
               </div>
-              <div style={{width:"510px",borderRight:"2px solid grey",marginLeft:"20px"}}>
-              <p style={{fontSize:"20px"}}>ExtraBedCharge for quest : {roomDetails.data.childAndExtraBedPolicy.extraBedForAdditionalGuest ? 'Yes provided' : 'Not provided'}</p>
-              <p style={{fontSize:"20px"}}>ExtraBedCharge  for child : {roomDetails.data.childAndExtraBedPolicy.extraBedProvidedForChild ? 'Yes provided' : 'Not provided'}</p>
-              <p style={{fontSize:"20px"}}>{roomDetails.data.houseRules.houseRulesunmarriedCouplesAllowed?"Unmarried couples allowed":" Unmarried couples are not allowed"}</p>
+              <div style={{width:"350px",borderRight:"2px solid grey",marginLeft:"20px"}}>
+              <p style={{fontSize:"15px"}}>ExtraBedCharge for quest : {roomDetails.data.childAndExtraBedPolicy.extraBedForAdditionalGuest ? 'Yes provided' : 'Not provided'}</p>
+              <p style={{fontSize:"15px"}}>ExtraBedCharge  for child : {roomDetails.data.childAndExtraBedPolicy.extraBedProvidedForChild ? 'Yes provided' : 'Not provided'}</p>
+              <p style={{fontSize:"15px"}}>{roomDetails.data.houseRules.houseRulesunmarriedCouplesAllowed?"Unmarried couples allowed":" Unmarried couples are not allowed"}</p>
               </div>
             
 
-              <div style={{width:"510px",marginLeft:"20px"}}>
+              <div style={{width:"350px",marginLeft:"20px"}}>
                
-                <p style={{fontSize:"20px"}}>IdProofs Accepted : {roomDetails.data.houseRules.restrictions.idProofsAccepted.join(", ")  }</p>
+                <p style={{fontSize:"15px"}}>IdProofs Accepted : {roomDetails.data.houseRules.restrictions.idProofsAccepted.join(", ")  }</p>
               
-                <p style={{fontSize:"20px"}}>Pets are : {roomDetails.data.houseRules.restrictions.petsAllowed?" allowed":" not allowed" }</p>
-                <p style={{fontSize:"20px"}}>Smoking  : {roomDetails.data.houseRules.restrictions.smokingAllowed?" allowed":" not allowed" }</p>
+                <p style={{fontSize:"15px"}}>Pets are : {roomDetails.data.houseRules.restrictions.petsAllowed?" allowed":" not allowed" }</p>
+                <p style={{fontSize:"15px"}}>Smoking  : {roomDetails.data.houseRules.restrictions.smokingAllowed?" allowed":" not allowed" }</p>
                 </div>
                
               </div>
-              <div style={{width:"1550px",height:"",backgroundColor:"#EC5B24",boxShadow:"0px 10px 8px grey",borderRadius:"15px",position:"relative",top:"-45PX"}} >.</div>
-              <div className="image-gallery" style={{boxShadow:"0px 10px 8px grey",borderRadius:"15px"}}>
+              <div style={{width:"77%",height:"",backgroundColor:"#EC5B24",boxShadow:"0px 10px 8px grey",borderRadius:"15px",position:"relative",top:"-45px"}} >.</div>
+              <div className="image-gallery" style={{boxShadow:"0px 10px 8px grey",borderRadius:"15px",width:"78%"}}>
               {roomDetails.data.images.map((imageUrl, index) => (
-                <img key={index} src={imageUrl} alt={`Hotel Image ${index}`}  style={{width:"370px",height:"300px",paddingLeft:"20px",borderRadius:"15px"}}/>
+                <img key={index} src={imageUrl} alt={`Hotel Image ${index}`}  style={{width:"300px",height:"300px",paddingLeft:"20px",borderRadius:"15px"}}/>
               ))}
             </div>
             {roomDetails.data.rooms.map((room, index) => (
