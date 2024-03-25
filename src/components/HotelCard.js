@@ -198,19 +198,19 @@ function HotelCard({hotel,searchParams}) {
               <div style={{width:"77%",height:"",backgroundColor:"#EC5B24",boxShadow:"0px 10px 8px grey",borderRadius:"15px",position:"relative",top:"-45px"}} >.</div>
               <div className="image-gallery" style={{boxShadow:"0px 10px 8px grey",borderRadius:"15px",width:"78%"}}>
               {roomDetails.data.images.map((imageUrl, index) => (
-                <img key={index} src={imageUrl} alt={`Hotel Image ${index}`}  style={{width:"300px",height:"300px",paddingLeft:"20px",borderRadius:"15px"}}/>
+                <img key={index} src={imageUrl} alt={`Hotel Image ${index}`}  style={{width:"400px",height:"300px",paddingLeft:"20px",borderRadius:"15px"}}/>
               ))}
             </div>
             {roomDetails.data.rooms.map((room, index) => (
-                <div key={index} className="room-details" style={{borderRadius:"15px",padding:"5px",border:"2px solid #EC5B24"}}>
+                <div key={index} className="room-details" style={{borderRadius:"15px",padding:"5px",border:"2px solid #EC5B24",width:"77%"}}>
                 <div style={{display:"flex"}}>
-                <div style={{width:"510px",borderRight:"2px solid grey",marginLeft:"20px"}}>
+                <div style={{width:"310px",borderRight:"2px solid grey",marginLeft:"20px"}}>
                 <h1> Room No:{room.roomNumber}</h1>
                 <p style={{color:"#EC5B24",fontSize:"30px",fontWeight:"700"}}> {room.roomType}</p>
                 <p style={{fontSize:"30px"}}>Room Size: {room.roomSize} sq.ft.</p>
                 <p style={{fontSize:"25px"}}>Bed: {room.bedDetail}</p>
                 </div>
-                <div  style={{width:"510px",borderRight:"2px solid grey",marginLeft:"20px",position:"relative",bottom:"-30px"}}>
+                <div  style={{width:"310px",borderRight:"2px solid grey",marginLeft:"20px",position:"relative",bottom:"-4px"}}>
                 <p style={{fontSize:"25px"}}>Base Cost: ₹{room.costDetails.baseCost}</p>
                 <p style={{fontSize:"25px"}}>Discount: ₹{room.costDetails.discount}</p>
                 <p style={{fontSize:"25px"}}>TaxesAndFees: ₹{room.costDetails.taxesAndFees}</p>
@@ -221,8 +221,8 @@ function HotelCard({hotel,searchParams}) {
                 Reserve Room</button>  
                 </div> 
                 </div>
-               <div style={{backgroundColor:"#EC5B24",color:"white",width:"1590px",height:"40px",fontSize:"25px",borderRadius:"15px"}}>
-               <p style={{position:"relative",right:"-550px"}}>{room.cancellationPolicy}</p></div>   
+               <div style={{backgroundColor:"#EC5B24",color:"white",width:"100%",height:"33px",fontSize:"20px",borderRadius:"15px"}}>
+               <p style={{position:"relative",right:"-457px"}}>{room.cancellationPolicy}</p></div>   
                 </div>
               ))} 
             </div>
