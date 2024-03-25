@@ -120,7 +120,7 @@ function HotelCard({hotel,searchParams}) {
           </div>)}
        
         
-        <div  style={{position:"relative",top:"-400px",left:"360px",border:"2px solid #EC5B24",width:"1600px",boxShadow:"0px 10px 8px grey",borderRadius:"15px"}}> {selectedRoom && (
+        <div  style={{position:"relative",top:"-400px",left:"360px",border:"2px solid #EC5B24",width:"80%",boxShadow:"0px 10px 8px grey",borderRadius:"15px"}}> {selectedRoom && (
           
 
           <div className='mmmmmm' style={{display:"flex"}}>
