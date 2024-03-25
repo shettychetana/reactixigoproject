@@ -1,4 +1,4 @@
-import React ,{useState}from 'react'
+import React ,{useState}from 'react';
 
 function HotelCard({hotel,searchParams}) {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
