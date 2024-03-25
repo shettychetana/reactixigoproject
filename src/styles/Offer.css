@@ -9,7 +9,7 @@
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
 }
 .offerh2{
-    margin-left: 725px;
+    margin-left: 525px;
 }
 .flex-wrap {
     display: flex;
@@ -105,6 +105,6 @@
   }
   .pfooteroffer{
     font-size: 20px;
-  margin-left: 600px;
+  margin-left: 340px;
   margin-top: 75px;
   }
