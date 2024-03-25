@@ -173,7 +173,7 @@ function HotelCard({hotel,searchParams}) {
               </div>
 
               <div style={{display:"flex",position:"relative",top:"-85px",left:"10px"}}>
-              <div style={{width:"350px",borderRight:"2px solid grey",    margin-left: "76px"}}>
+              <div style={{width:"350px",borderRight:"2px solid grey",margin-left: "76px"}}>
               <p style={{fontSize:"15px"}}>Availability of {roomDetails.data.amenities.join(", ")}</p>
              
               <p style={{fontSize:"15px"}}>ExtraBedCharge: ₹{roomDetails.data.childAndExtraBedPolicy.extraBedCharge}</p>
