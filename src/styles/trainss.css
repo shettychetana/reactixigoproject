@@ -336,7 +336,7 @@ padding: 10px;
   
   font-size:20px ;
   margin-top: 10px;
-  margin-left: 700px;
+  margin-left: 339px;
 }
 .ticket1Ab:hover{
   background-color: red;
@@ -392,8 +392,8 @@ box-shadow: 0px 10px 9px grey;
   margin-bottom:5px ;
 }
 .ticket2{
-  margin-left: 50px; 
-  width: 1300px;
+  
+  width: 100%;
   box-shadow: 0px 10px 9px grey;
   margin-bottom:25px ;
 
