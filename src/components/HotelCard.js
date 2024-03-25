@@ -195,10 +195,10 @@ function HotelCard({hotel,searchParams}) {
                 </div>
                
               </div>
-              <div style={{width:"77%",height:"",backgroundColor:"#EC5B24",boxShadow:"0px 10px 8px grey",borderRadius:"15px",position:"relative",top:"-45px"}} >.</div>
+              <div style={{width:"100%",height:"",backgroundColor:"#EC5B24",boxShadow:"0px 10px 8px grey",borderRadius:"15px",position:"relative",top:"-45px"}} >.</div>
               <div className="image-gallery" style={{boxShadow:"0px 10px 8px grey",borderRadius:"15px",width:"100%"}}>
               {roomDetails.data.images.map((imageUrl, index) => (
-                <img key={index} src={imageUrl} alt={`Hotel Image ${index}`}  style={{width:"300px",height:"300px",paddingLeft:"20px",borderRadius:"15px"}}/>
+                <img key={index} src={imageUrl} alt={`Hotel Image ${index}`}  style={{width:"250px",height:"300px",paddingLeft:"20px",borderRadius:"15px"}}/>
               ))}
             </div>
             {roomDetails.data.rooms.map((room, index) => (
